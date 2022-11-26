@@ -7,7 +7,7 @@
     <link rel ="stylesheet " href="style.css" />
     <link rel="shorcut icon" href="images/icono.ico"/>
   <script type="text/javascript">
-  </script>
+</script>
 </head>
 <body>
 <nav>

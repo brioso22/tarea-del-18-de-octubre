@@ -70,7 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="consulta2.aspx" />
+    <Content Include="consultas2.aspx" />
     <Content Include="consultas.aspx" />
     <Content Include="imagenes\descar.jpg" />
     <Content Include="imagenes\descarga.jpg" />
@@ -84,12 +84,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="consulta2.aspx.cs">
-      <DependentUpon>consulta2.aspx</DependentUpon>
+    <Compile Include="consultas2.aspx.cs">
+      <DependentUpon>consultas2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="consulta2.aspx.designer.cs">
-      <DependentUpon>consulta2.aspx</DependentUpon>
+    <Compile Include="consultas2.aspx.designer.cs">
+      <DependentUpon>consultas2.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas.aspx.cs">
       <DependentUpon>consultas.aspx</DependentUpon>

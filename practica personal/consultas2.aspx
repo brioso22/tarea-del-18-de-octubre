@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="consultas2.aspx.cs" Inherits="practica_personal.consultas" %>
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -7,7 +9,7 @@
     <link rel ="stylesheet " href="style.css" />
     <link rel="shorcut icon" href="images/icono.ico"/>
   <script type="text/javascript">
-  </script>
+</script>
 </head>
 <body>
 <nav>
@@ -31,17 +33,18 @@
 
     <center>
     Consultar:
-    <asp:Button id="enviar4" Text="Ver usuarios" runat="server" OnClick="enviar3_Click" /></center>
+    <asp:Button id="enviar3" Text="Ver usuarios" runat="server" OnClick="enviar3_Click" /></center>
   <div>
             <asp:ScriptManager id="ScriptManager1" runat="server"></asp:ScriptManager>
             <asp:UpdatePanel id="UpdatePanel1" UpdateMode="Conditional" runat="server">
                 <ContentTemplate>
                     <asp:GridView ID="GVConsultar2" runat="server"  AutoGenerateColumns="False"  >
                         <Columns>
-                            
+                           
                             <asp:BoundField HeaderText="Codigo" DataField="Codigo"/>
                             <asp:BoundField HeaderText="Nombre" DataField="Nombre"/>
-                            <asp:BoundField HeaderText="Rango" DataField="Rango"/>
+                            <asp:BoundField HeaderText="Usuario" DataField="Usuario"/>
+                           
                         </Columns>
                     </asp:GridView>
                 </ContentTemplate>
@@ -50,7 +53,10 @@
         
 
     </form>
-    </div>
+
+
+        </center>
+    </form>
+        </div>
 </body>
 </html>
-

@@ -16,7 +16,7 @@
            <h4> ~ Consultas ~ </h4>
         </div>        
         <ul class="nav-links">
-            <a href="default.aspx"> Home </a>
+            <a href="Menú.aspx"> Home </a>
             <a href="Registro.aspx">Registro</a>
             <a href="consultas.aspx">consultas</a>
         </ul>
